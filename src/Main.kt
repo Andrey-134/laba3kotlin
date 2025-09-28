@@ -163,5 +163,12 @@ fun main(){
 //            }
 //        }
 //    }
-
+//fun countV(s: String): Int {
+//    val v = "aeiouyаеёиоуыэюяAEIOUYАЕЁИОУЫЭЮЯ"
+//    var cnt = 0
+//    for (c in s) {
+//        if (c in v) cnt++
+//    }
+//    return cnt
+//}
 }
