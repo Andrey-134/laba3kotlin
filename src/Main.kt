@@ -144,7 +144,7 @@ fun main(){
 //println("Baш титул: $phrase")
     // ДЗ 3
 //fun main() {
-//    //Task 1
+//   1
 //    val sNumber = Random.nextInt(1, 51)
 //    var guess: Int
 //    var at = 0
@@ -163,7 +163,7 @@ fun main(){
 //            }
 //        }
 //    }
-//fun countV(s: String): Int {
+// 2  fun countV(s: String): Int {
 //    val v = "aeiouyаеёиоуыэюяAEIOUYАЕЁИОУЫЭЮЯ"
 //    var cnt = 0
 //    for (c in s) {
@@ -171,4 +171,13 @@ fun main(){
 //    }
 //    return cnt
 //}
+//    3
+//    println("Введите число N:")
+//    val n = readLine()?.toIntOrNull() ?: return
+//
+//    for (i in n downTo 1) {
+//        println(i)
+//    }
+//}
+
 }
