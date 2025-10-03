@@ -187,5 +187,25 @@ fun main() {
 //    }
 //    println("Пароль: ${genPass()}")
 //    5
+//        println("=== МИНИ-ОПРОС ===")
+//        print("Введите ваше имя: ")
+//        val name = readLine() ?: ""
+//        print("1. Какой ваш любимый город ")
+//        val answer1 = readLine() ?: ""
+//        print("2. Какое ваша любимая игра  ")
+//        val answer2 = readLine() ?: ""
+//        print("3. Чем любите заниматься ")
+//        val answer3 = readLine() ?: ""
+//        val feedbacks = listOf(
+//            "Ты крутой!",
+//        )
+//        val randomFeedback = feedbacks.random()
+//        println("\n=== РЕЗУЛЬТАТЫ ОПРОСА ===")
+//        println("Имя: $name")
+//        println("\n  ответы:")
+//        println("1. Любимый город: $answer1")
+//        println("2. Любимая игра: $answer2")
+//        println("3. Чем занимаетесь: $answer3")
+//        println("\nОтзыв: $randomFeedback")
 
     }
