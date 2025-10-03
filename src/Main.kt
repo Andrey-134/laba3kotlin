@@ -207,7 +207,7 @@ fun main() {
 //        println("2. Любимая игра: $answer2")
 //        println("3. Чем занимаетесь: $answer3")
 //        println("\nОтзыв: $randomFeedback")
-// 6
+//   6
 //    fun main() {
 //        print("Введите N: ")
 //        val n = readLine()!!.toInt()
@@ -220,4 +220,17 @@ fun main() {
 //        i->val num= Random.nextInt(1,7)
 //        println("${i+1}: $num")
 //}
+//   8
+//    val n1=Random.nextInt(0,6)
+//    println(num1)
+//    val n2=Random.nextInt(0,6)
+//    println(num2)
+//    val n3=Random.nextInt(0,6)
+//    println(num3)
+//    if (n1==n2 && n2==num3){
+//        println("Джекпот!")
+//    }
+//    else{
+//        println("Попробуй еще раз")
+//    }
     }
