@@ -1,5 +1,5 @@
-import kotlin.random.Random
-fun main(){
+﻿import kotlin.random.Random
+fun main() {
     //laba 3
 //    print("Введите первое число, знак операции и второе число через пробел: ")
 //    val input = readln().split(" ")
@@ -82,7 +82,7 @@ fun main(){
 //    } while (password != "qwerty")
 //    println("Доступ разрешён!")
 
-//    for (i in 1..5) {
+    //    for (i in 1..5) {
 //        println("War $i")
 //    }
 //    val fruits = listOf("apple", "banana", "cherry")
@@ -163,14 +163,14 @@ fun main(){
 //            }
 //        }
 //    }
-// 2  fun countV(s: String): Int {
-//    val v = "aeiouyаеёиоуыэюяAEIOUYАЕЁИОУЫЭЮЯ"
-//    var cnt = 0
-//    for (c in s) {
-//        if (c in v) cnt++
+    //2
+//    fun main() {
+//        fun countV(s: String) = s.count { it in "aeiouyаеёиоуыэюяAEIOUYАЕЁИОУЫЭЮЯ" }
+//
+//        print("Введите строку: ")
+//        val input = readln()
+//        println("Гласных букв: ${countV(input)}")
 //    }
-//    return cnt
-//}
 //    3
 //    println("Введите число N:")
 //    val n = readLine()?.toIntOrNull() ?: return
@@ -179,5 +179,13 @@ fun main(){
 //        println(i)
 //    }
 //}
+//   4
+//    fun genPass(): String {
+//        val len = Random.nextInt(8, 17)
+//        val chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#\$%^&*"
+//        return (1..len).map { chars.random() }.joinToString("")
+//    }
+//    println("Пароль: ${genPass()}")
+//    5
 
-}
+    }
