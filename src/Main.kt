@@ -233,16 +233,28 @@ fun main() {
 //    else{
 //        println("Попробуй еще раз")
 //    }
-////   9
-////    var money = (100..1000).random()
-////    println("Начали: $money руб.")
-////    var day = 1
-////    while (money > 0) {
-////        val take = minOf((10..100).random(), money)
-////        money -= take
-////        println("День $day: сняли $take руб., осталось $money руб.")
-////        day++
-////    }
+//   9
+//    var money = (100..1000).random()
+//    println("Начали: $money руб.")
+//    var day = 1
+//    while (money > 0) {
+//        val take = minOf((10..100).random(), money)
+//        money -= take
+//        println("День $day: сняли $take руб., осталось $money руб.")
+//        day++
+//    }
 //
 //    println("закончились!")
+//    10
+//    val days = listOf("Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс")
+//    println("Все дни:")
+//    for (day in days) {
+//        val t = (-10..30).random()
+//        println("$day: ${t}°C")
+//    }
+//    println("\nМорозные дни:")
+//    for (day in days) {
+//        val t = (-10..30).random()
+//        if (t < 0) println("$day: ${t}°C")
+//    }
 }
