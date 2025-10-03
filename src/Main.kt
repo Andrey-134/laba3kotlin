@@ -215,4 +215,9 @@ fun main() {
 //        for (i in 1..n) sum += i
 //        println("Сумма: $sum")
 //    }
+//   7
+//    repeat(10){
+//        i->val num= Random.nextInt(1,7)
+//        println("${i+1}: $num")
+//}
     }
