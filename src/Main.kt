@@ -207,5 +207,12 @@ fun main() {
 //        println("2. Любимая игра: $answer2")
 //        println("3. Чем занимаетесь: $answer3")
 //        println("\nОтзыв: $randomFeedback")
-
+// 6
+//    fun main() {
+//        print("Введите N: ")
+//        val n = readLine()!!.toInt()
+//        var sum = 0
+//        for (i in 1..n) sum += i
+//        println("Сумма: $sum")
+//    }
     }
